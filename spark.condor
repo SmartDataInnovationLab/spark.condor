@@ -1,0 +1,13 @@
+universe = vanilla
+executable=$(SUBMIT_FILE).sh
+
+request_cpus=8
+request_memory=32GB
+transfer_input_files=env
+transfer_output_files=""
+
++WantIOProxy = true
+
+#log=$(SUBMIT_FILE).$(Cluster).$(Step).log
+#error=$(SUBMIT_FILE).$(Cluster).$(Step).err
+#output=$(SUBMIT_FILE).$(Cluster).$(Step).out
