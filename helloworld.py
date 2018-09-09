@@ -1,3 +1,5 @@
+# Copyright 2017 knowru: see https://github.com/knowru/hello_world_spark/blob/3e7fd67be0deb889824217ad55b2f33fd834cd3b/LICENSE
+
 from pyspark import SparkContext
 from operator import add
  
