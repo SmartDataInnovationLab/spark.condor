@@ -10,7 +10,7 @@ Run ```./spark.venv.sh``` to create a python venv with pyspark.
 
 Note: the script deletes the symlink env/lib64 due the fact that htcondor transfers no symlinks (!?)
 
-# Running Spark in Standalone
+## Running Spark in Standalone
 run using ``` condor_submit spark.condor -queue [num_workers] ``` 
 
 The default worker size is 8 CPUs and 32G RAM. You may adjust this by using the appropriate ```-a``` flags on submit or editing the job file.
